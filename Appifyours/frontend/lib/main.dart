@@ -424,7 +424,7 @@ class MyApp extends StatelessWidget {
 // API Configuration - Auto-updated with your server details
 class ApiConfig {
   static String get baseUrl => dotenv.env['API_BASE'] ?? (throw Exception('API_BASE environment variable is not set. Please configure it in your .env file.'));
-  static const String adminObjectId = 'ADMIN_OBJECT_ID_HERE'; // Will be replaced during publish
+  static const String adminObjectId = '6a70c163e69a1f181c7875c9'; // Will be replaced during publish
   static const String appId = 'APP_ID_HERE'; // Will be replaced during publish
 }
 class SessionManager {
